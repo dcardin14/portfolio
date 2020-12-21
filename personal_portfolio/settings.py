@@ -25,7 +25,7 @@ SECRET_KEY = 'styo)=7*8g8f#obvwdf+kb)_!4=!^3#v()v43+n06oy4f131&#'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['554c9cdff69c.ngrok.io','localhost']
+ALLOWED_HOSTS = ['bigdogpentesting.pythonanywhere.com','localhost']
 
 
 # Application definition
