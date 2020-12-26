@@ -8,3 +8,9 @@ class Blog(models.Model):
     def __str__(self):
         return self.title
 
+class WriterIdentifier(models.Model):
+    everybodys = Blog.objects.all()
+    daniels = everybodys.filter(writer = 'Daniel')
+    stefans = everybodys.filter(writer = 'Stefan')
+    
+
